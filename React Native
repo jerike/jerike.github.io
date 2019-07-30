@@ -1,0 +1,16 @@
+# Build Issue
+> Task :app:installDebug FAILED
+adb uninstall "com.foops"
+
+> Task :app:mergeReleaseResources FAILED
+build/generated/res/react/release
+remove {drawable} folder
+
+
+
+
+useAndroidX
+1. npm install --save-dev jetifier
+2. npx jetify
+3. npx react-native run-android
+
